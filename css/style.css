@@ -203,6 +203,10 @@ html, body {
   .name {
     width: 184px;
   }
+
+  .closed{
+    text-align: center;
+  }
   
   .menu_price {
     text-align: center;
