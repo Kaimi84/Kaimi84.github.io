@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feri a Séf</title>
+    <link rel="stylesheet" href="/lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div id="header">
+        <div class="row">
+            <div class="col-4 header-image">
+                <img class="headerSideImg" src="/img/header_img_1.jpg" alt="Feri a Séf">
+            </div>
+            <div class="col-4 header-image">
+                <img class="headerImg centerImg" src="/img/sef_logo_3.jpg" alt="Feri a Séf logo">
+            </div>
+            <div class="col-4 header-image">
+                <img class="headerSideImg" src="/img/header_img_2.jpg" alt="Feri a Séf">
+            </div>
+    </div>
+    </div>
+    <div id="menu">
+        <ul>
+            <li class="active">
+                <a href="/">Főoldal</a>
+            </li>
+            <li>
+                <a>|</a>
+            </li>
+            <li class="active">
+                <a href="/menu.html">Étlap</a>
+            </li>
+            <!--<li>
+                <a>|</a>
+            </li>
+            <li class="active">
+                <a href="/contact.html">Kapcsolat</a>
+            </li>-->
+                        
+        </ul>
+    </div>
+    
+    <div id="main">
+        <div class="content-panel">
+            <div class="content">
+                <h1 class="menu_h1">Mai ajánlatunk - <span id="date"></span>
+                    <script>
+                        n =  new Date();
+                        y = n.getFullYear();
+                        m = n.getMonth() + 1;
+                        d = n.getDate();
+                        document.getElementById("date").innerHTML = y + "." + m + "." + d;
+                        </script>
+                </h1>
+                <div class="menu_row">
+                    <div class="col-4">
+                        <table class="menu">
+                            <caption id="levesek">Levesek</caption>
+                            <thead>
+                                <td></td>
+                                <td></td>
+                                
+                                <td class="menu_price">Ár</td>
+                            </thead>
+                            <tr>
+                                <td class="name">Húsleves gazdagon</td>
+                                <td></td>
+                                
+                                <td class="menu_price">650 Ft</td>
+                            </tr>
+                            <tr>
+                                <td class="name">Májgombóc leves</td>
+                                <td></td>
+                                
+                                <td class="menu_price">600 Ft</td>
+                            </tr>
+                            <tr>
+                                <td class="name">Gulyás leves</td>
+                                <td></td>
+                                
+                                <td class="menu_price">750 Ft</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-4">
+                        <table class="menu">
+                            <caption id="foetel">Főétel</caption>
+                            <thead>
+                                <td></td>
+                                <td></td>
+                                <td class="menu_price">Ár</td>
+                            </thead>    
+                            <tr>
+                                <td class="name">Szalontüdő</td>
+                                <td></td>
+                                <td >790 Ft</td>
+                            </tr>
+                            <tr>
+                                <td class="name">Hagymás rostélyos</td>
+                                <td></td>
+                                <td class="menu_price">890 Ft</td>
+                            </tr>
+                            <tr>
+                                <td class="name">Tepsis hús krumplival hagymával</td>
+                                <td></td>
+                                <td class="menu_price">1100 Ft</td>
+                            </tr>
+                            <tr>
+                                <td class="name">Paradicsomos húsgombóc</td>
+                                <td></td>
+                                <td class="menu_price">980 Ft</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-4">
+                        <table class="menu">
+                            <caption id="köret">Köretek</caption>
+                            <thead>
+                                <td></td>
+                                <td></td>
+                                <td class="menu_price">Ár</td>
+                                
+                            </thead>    
+                            <tr>
+                                <td class="name">Rizs</td>
+                                <td></td>
+                                <td class="menu_price">400 Ft</td>
+                                
+                            </tr>
+                            <tr>
+                                <td class="name">Sült krumpli</td>
+                                <td></td>
+                                <td class="menu_price">300 Ft</td>
+                                
+                            </tr>
+                            <tr>
+                                <td class="name">Fűszeres steak bugonya</td>
+                                <td></td>
+                                <td class="menu_price">350 Ft</td>
+                                
+                            </tr>
+                        </table>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        FERI A SÉF ÉTELBÁR - HÁZIAS ÍZEK KONYHÁJA - Telefon: +36-30-123-4567 - Email: feriasefetelbar@gmail.com
+        <br>
+    </div>
+    
+</body>
+</html>
+
+<!--
+
+    
+-->
+

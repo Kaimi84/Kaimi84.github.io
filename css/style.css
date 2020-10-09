@@ -1,0 +1,258 @@
+html, body {
+    padding: 0;
+  }
+  
+  html {
+    /*background: url("https://fahazetterem.hu/kepek/aloldalak/028/28971/99999x/bgimage.jpg");*/
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #335464), color-stop(0%, #335464)) #335464;
+    background: linear-gradient(to bottom, #335464 100%, #335464 0%) #335464;
+    /*background: #51adcf center top fixed;*/
+    /*background: url("https://fahazetterem.hu/kepek/aloldalak/028/28971/99999x/bgimage.jpg") linear-gradient(to bottom, rgb(44, 117, 165) 0%, rgb(49, 142, 158) 100%) rgb(48, 151, 108) center top fixed;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  body {
+    /*background: #f7e3ce;*/
+    /*background: rgb(255, 247, 233);*/
+    background: #e7e7de;
+    -webkit-box-shadow: 0 0 10px black;
+            box-shadow: 0 0 10px black;
+    max-width: 1000px;
+    font-family: Arial;
+    margin: 10px auto;
+    width: 100%;
+  }
+  
+  #header {
+    max-height: 275px;
+    min-height: 90px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background: #335464;
+  }
+  
+  #header .header-image {
+    width: 100%;
+    padding: 0;
+  }
+  
+  #header .header-image img {
+    width: 335px;
+  }
+  
+  #header .headerSideImg {
+    width: 35%;
+  }
+  
+  #header .centerImg {
+    width: 30%;
+    /*margin: 0 10px;*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /*#header .logo {
+      position: absolute;
+      max-height: 180px;
+      left: 20px;
+      top: 20px;
+  }
+  
+  #header .logo img {
+      max-height: 160px;
+      width: 100%;
+  }
+  
+  #header .header-image {
+      width: 100%;
+  }*/
+  _logo {
+    color: #CBC76A;
+  }
+  
+  #menu {
+    /*background: rgb(77, 153, 179);
+      background: linear-gradient(to bottom, rgb(77, 153, 179) 0%,rgb(77, 153, 179) 100%) rgb(77, 153, 179);*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#335464), to(#335464)) #335464;
+    background: linear-gradient(to bottom, #335464 0%, #335464 100%) #335464;
+    font-size: 1.2em;
+  }
+  
+  #menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 1em;
+  }
+  
+  #menu li {
+    display: inline-block;
+  }
+  
+  #menu li a {
+    color: #e7e7de;
+    line-height: 2em;
+    padding: 0 0.2em;
+    text-transform: uppercase;
+  }
+  
+  #menu li:hover:nth-child(odd) a {
+    color: #CBC76A;
+    line-height: 2em;
+    padding: 0 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .content-panel {
+    min-height: 630px;
+    margin: 15px 20px;
+  }
+  
+  .right-panel {
+    float: right;
+    padding: 1em 0;
+    width: 250px;
+    height: 200px;
+  }
+  
+  .fa-facebook {
+    font-size: 50px;
+  }
+  
+  .fa-facebook:hover {
+    text-decoration: none;
+  }
+  
+  .menu-right-panel {
+    float: right;
+    padding: 1em 0;
+    width: 250px;
+    height: 50px;
+  }
+  
+  h1 {
+    color: #0f3057;
+    width: 700px;
+    padding-left: 15px;
+  }
+  
+  .menu_h1 {
+    color: #0f3057;
+    width: auto;
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  p {
+    color: #0f3057;
+  }
+  
+  .menu_row {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  table.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .col-4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  tr:last-child td:first-child_ {
+    border-bottom-left-radius: 25%;
+  }
+  
+  tr:last-child td:last-child_ {
+    border-bottom-right-radius: 25%;
+  }
+  
+  caption, th, td {
+    /*border: 1px solid black;*/
+    background-color: white;
+    padding: 5px;
+  }
+  
+  td {
+    color: #0f3057;
+    min-width: 15px;
+    border-top: 5px solid #e7e7de;
+  }
+  
+  caption {
+    text-align: center;
+    caption-side: top;
+    color: #0f3057;
+    border-bottom: 5px solid #e7e7de;
+  }
+  
+  .name {
+    width: 184px;
+  }
+  
+  .menu_price {
+    text-align: center;
+    min-width: 65px;
+  }
+  
+  img {
+    height: 300px;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  .menu_img {
+    width: 200px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu_img img_ {
+    width: 350px;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #mainAddress {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 80%;
+  }
+  
+  #subAddress {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 12px;
+  }
+  
+  #footer {
+    /*background: rgb(88, 187, 245);
+      background: linear-gradient(to bottom, rgb(77, 153, 179) 0%, rgb(77, 153, 179) 100%) rgb(77, 153, 179);*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#335464), to(#335464)) #335464;
+    background: linear-gradient(to bottom, #335464 0%, #335464 100%) #335464;
+    color: #e7e7de;
+    line-height: 2em;
+    text-align: center;
+  }
+  /*# sourceMappingURL=feri_a_sef_home.css.map */
