@@ -38,23 +38,42 @@
             </li>
             <li class="active">
                 <a href="/menu_2.html">Étlap 2</a>
-            </li>
-                        
+            </li>         
         </ul>
     </div>
     
     <div id="main">
         <div class="content-panel">
             <div class="content">
-                <h1 class="menu_h1">Mai ajánlatunk - <span id="date"></span>
+                <h1 class="menu_h1">Heti ajánlatunk - 2020.10.13. - 2020.10.17.
+                    <!--- <span id="date"></span>
                     <script>
                         n =  new Date();
                         y = n.getFullYear();
                         m = n.getMonth() + 1;
                         d = n.getDate();
                         document.getElementById("date").innerHTML = y + "." + m + "." + d;
-                        </script>
+                        </script>-->
                 </h1>
+                <div id="weeklyMenu">
+                    <ul>
+                        <li class="active">
+                            <a href="/menu_tuesday.html">Kedd</a>
+                        </li>
+                        <li>
+                            <a href="/menu_wednesday.html">Szerda</a>
+                        </li>
+                        <li>
+                            <a href="/menu_thursday.html">Csütörtök</a>
+                        </li>
+                        <li class="active">
+                            <a href="/menu_friday.html">Péntek</a>
+                        </li>    
+                        <li class="active">
+                            <a href="/menu_saturday.html">Szombat</a>
+                        </li>   
+                    </ul>
+                </div>
                 <div class="menu_row">
                     <div class="col-4">
                         <table class="menu">
@@ -62,16 +81,16 @@
                             
                             </thead>
                             <tr>
-                                <td class="name">Húsleves gazdagon</td>
+                                <td class="name">Tárkonyos tyúkhúsleves</td>
                                 <td></td>
                                 
                                 <td class="menu_price">650 Ft</td>
                             </tr>
                             <tr>
-                                <td class="name">Májgombóc leves</td>
+                                <td class="name">Babgulyás</td>
                                 <td></td>
                                 
-                                <td class="menu_price">600 Ft</td>
+                                <td class="menu_price">700 Ft</td>
                             </tr>
                             <tr>
                                 <td class="name">Gulyás leves</td>
@@ -86,45 +105,60 @@
                             <caption id="foetel">Főétel</caption>
                                 
                             <tr>
-                                <td class="name">Szalontüdő</td>
+                                <td class="name">Sült malac</td>
                                 <td></td>
                                 <td >790 Ft</td>
                             </tr>
                             <tr>
-                                <td class="name">Hagymás rostélyos</td>
+                                <td class="name">Sertés tokány</td>
                                 <td></td>
                                 <td class="menu_price">890 Ft</td>
                             </tr>
                             <tr>
-                                <td class="name">Tepsis hús krumplival hagymával</td>
+                                <td class="name">Csirke pörkölt</td>
+                                <td></td>
+                                <td class="menu_price">650 Ft</td>
+                            </tr>
+                            <tr>
+                                <td class="name">Fasírt</td>
+                                <td></td>
+                                <td class="menu_price">350 Ft</td>
+                            </tr>
+                            <tr>
+                                <td class="name">Brassói aprópecsenye</td>
                                 <td></td>
                                 <td class="menu_price">1100 Ft</td>
                             </tr>
                             <tr>
-                                <td class="name">Paradicsomos húsgombóc</td>
+                                <td class="name">Paprikás Krumpli</td>
                                 <td></td>
-                                <td class="menu_price">980 Ft</td>
+                                <td class="menu_price">990 Ft</td>
+                            </tr>
+                            <tr>
+                                <td class="name">Krumplis tészta</td>
+                                <td></td>
+                                <td class="menu_price">850 Ft</td>
                             </tr>
                         </table>
                     </div>
                     <div class="col-4">
                         <table class="menu">
-                            <caption id="köret">Köretek</caption>
+                            <caption id="köret">Főzelékek</caption>
                                 
                             <tr>
-                                <td class="name">Rizs</td>
+                                <td class="name">Lencse</td>
                                 <td></td>
                                 <td class="menu_price">400 Ft</td>
                                 
                             </tr>
                             <tr>
-                                <td class="name">Sült krumpli</td>
+                                <td class="name">Sárgaborsó</td>
                                 <td></td>
                                 <td class="menu_price">300 Ft</td>
                                 
                             </tr>
                             <tr>
-                                <td class="name">Fűszeres steak bugonya</td>
+                                <td class="name">Spenót</td>
                                 <td></td>
                                 <td class="menu_price">350 Ft</td>
                                 
@@ -136,11 +170,15 @@
                 <h1 class="menu_h1">Állandó ételeink</h1>
                 <div class="menu_row">
                     <div class="col-6">
-                        <table class="everydayMenu">
-                            
-                            
+                        <table class="everydayMenu_table">
                             <tr>
-                                <td class="name">Rántott karaj</td>
+                                <td class="name">Rántott csirkecombfilé</td>
+                                <td></td>
+                                
+                                <td class="menu_price">700 Ft</td>
+                            </tr>
+                            <tr>
+                                <td class="name">Rántott csirkemell</td>
                                 <td></td>
                                 
                                 <td class="menu_price">700 Ft</td>
@@ -151,49 +189,26 @@
                                 
                                 <td class="menu_price">600 Ft</td>
                             </tr>
+                        </table>
+                    </div>
+                    <div class="col-6">
+                        <table class="everydayMenu_table">
                             <tr>
-                                <td class="name">Rántott gomba</td>
+                                <td class="name">Rántott karaj</td>
+                                <td></td>
+                                <td >790 Ft</td>
+                            </tr>
+                            <tr>
+                                <td class="name">Rántott zöldségek</td>
                                 <td></td>
                                 
                                 <td class="menu_price">550 Ft</td>
                             </tr>
                             <tr>
-                                <td class="name">Sült kolbász</td>
+                                <td class="name">Rántott hal</td>
                                 <td></td>
                                 
                                 <td class="menu_price">650 Ft</td>
-                            </tr>
-                            <tr>
-                                <td class="name">Sült hurka</td>
-                                <td></td>
-                                
-                                <td class="menu_price">650 Ft</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="col-6">
-                        <table class="menu">
-                            
-                                
-                            <tr>
-                                <td class="name">Szalontüdő</td>
-                                <td></td>
-                                <td >790 Ft</td>
-                            </tr>
-                            <tr>
-                                <td class="name">Hagymás rostélyos</td>
-                                <td></td>
-                                <td class="menu_price">890 Ft</td>
-                            </tr>
-                            <tr>
-                                <td class="name">Tepsis hús krumplival hagymával</td>
-                                <td></td>
-                                <td class="menu_price">1100 Ft</td>
-                            </tr>
-                            <tr>
-                                <td class="name">Paradicsomos húsgombóc</td>
-                                <td></td>
-                                <td class="menu_price">980 Ft</td>
                             </tr>
                         </table>
                     </div>
