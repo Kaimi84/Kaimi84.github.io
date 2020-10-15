@@ -3,34 +3,45 @@ html, body {
   }
   
   html {
-    /*background: url("https://fahazetterem.hu/kepek/aloldalak/028/28971/99999x/bgimage.jpg");*/
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #335464), color-stop(0%, #335464)) #335464;
-    background: linear-gradient(to bottom, #335464 100%, #335464 0%) #335464;
-    /*background: #51adcf center top fixed;*/
-    /*background: url("https://fahazetterem.hu/kepek/aloldalak/028/28971/99999x/bgimage.jpg") linear-gradient(to bottom, rgb(44, 117, 165) 0%, rgb(49, 142, 158) 100%) rgb(48, 151, 108) center top fixed;*/
+    /*background: #edc988;*/
+    /*background: #f8efd4;*/
+    background: #f2a07b;
+    /*background: #931a25;*/
     background-repeat: no-repeat;
     background-size: 100%;
   }
   
   body {
-    /*background: #f7e3ce;*/
-    /*background: rgb(255, 247, 233);*/
-    background: #e7e7de;
+    /*background: #f8efd4;*/
+    /*background: #ffff;*/
+    background: #fbdcc4;
+    /*background: #31112c;*/
     -webkit-box-shadow: 0 0 10px black;
-            box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
     max-width: 1000px;
     font-family: Arial;
     margin: 10px auto;
     width: 100%;
+    height: 1100px;
   }
-  
+
+ 
+
+  #header, #menu, #footer{
+    /*background: #fbdcc4;*/
+    /*background: #edc988;*/
+    background: #7d0633;
+  }
+
   #header {
     max-height: 275px;
     min-height: 90px;
     overflow: hidden;
     position: relative;
     width: 100%;
-    background: #335464;
+    /*background: #931a25;*/
+    /*background: #31112c;*/
+    /*background: #fbdcc4;*/
   }
   
   #header .header-image {
@@ -52,31 +63,9 @@ html, body {
     margin-left: auto;
     margin-right: auto;
   }
-  
-  /*#header .logo {
-      position: absolute;
-      max-height: 180px;
-      left: 20px;
-      top: 20px;
-  }
-  
-  #header .logo img {
-      max-height: 160px;
-      width: 100%;
-  }
-  
-  #header .header-image {
-      width: 100%;
-  }*/
-  _logo {
-    color: #CBC76A;
-  }
-  
+    
   #menu {
-    /*background: rgb(77, 153, 179);
-      background: linear-gradient(to bottom, rgb(77, 153, 179) 0%,rgb(77, 153, 179) 100%) rgb(77, 153, 179);*/
-    background: -webkit-gradient(linear, left top, left bottom, from(#335464), to(#335464)) #335464;
-    background: linear-gradient(to bottom, #335464 0%, #335464 100%) #335464;
+    /*background: #931a25;*/
     font-size: 1.2em;
   }
   
@@ -90,8 +79,13 @@ html, body {
     display: inline-block;
   }
   
+  #menu li a, #footer{
+    color: #f8efd4;
+    /*color: #31112c;*/
+  }
+
   #menu li a {
-    color: #e7e7de;
+    /*color: #e7e7de;*/
     line-height: 2em;
     padding: 0 0.2em;
     text-transform: uppercase;
@@ -99,6 +93,7 @@ html, body {
   
   #menu li:hover:nth-child(odd) a {
     color: #CBC76A;
+    /*color: #f8efd4;*/
     line-height: 2em;
     padding: 0 0.2em;
     text-transform: uppercase;
@@ -108,6 +103,12 @@ html, body {
   .content-panel {
     min-height: 630px;
     margin: 15px 20px;
+  }
+
+  .content{
+    margin-top: 10px;
+    width: 960px;
+    height: 620px;
   }
   
   .right-panel {
@@ -133,6 +134,7 @@ html, body {
   }
   
   h1 {
+    font-size: 30px;
     color: #0f3057;
     width: 700px;
     padding-left: 15px;
@@ -190,14 +192,20 @@ html, body {
   td {
     color: #0f3057;
     min-width: 15px;
-    border-top: 5px solid #e7e7de;
+    border-top: 5px solid #fbdcc4;
+  }
+
+  .center td{
+    padding: 5px 15px;
+    font-size: 16px;
   }
   
   caption {
     text-align: center;
     caption-side: top;
     color: #0f3057;
-    border-bottom: 5px solid #e7e7de;
+    /*border-bottom: 5px solid #e7e7de;*/
+    font-size: 17px;
   }
   
   .name {
@@ -212,6 +220,8 @@ html, body {
     text-align: center;
     min-width: 65px;
   }
+
+  
   
   img {
     height: 300px;
@@ -234,6 +244,11 @@ html, body {
     padding: 0;
     margin: 0;
   }
+
+  #map_img{
+    margin-top: 15px;
+    height: 307px;
+  }
   
   #mainAddress {
     margin-left: auto;
@@ -250,12 +265,22 @@ html, body {
   }
   
   #footer {
-    /*background: rgb(88, 187, 245);
-      background: linear-gradient(to bottom, rgb(77, 153, 179) 0%, rgb(77, 153, 179) 100%) rgb(77, 153, 179);*/
-    background: -webkit-gradient(linear, left top, left bottom, from(#335464), to(#335464)) #335464;
-    background: linear-gradient(to bottom, #335464 0%, #335464 100%) #335464;
-    color: #e7e7de;
+    /*background: #e22148;*/
+    /*color: #e7e7de;*/
     line-height: 2em;
     text-align: center;
+    margin-top: 110px;
   }
+
+#footer ul{
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.footer li{
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
   /*# sourceMappingURL=feri_a_sef_home.css.map */
