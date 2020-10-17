@@ -47,15 +47,19 @@
     <div id="main">
         <div class="content-panel">
             <div class="content">
-                <h1 class="menu_h1">Heti ajánlatunk - 2020.10.13. - 2020.10.17.
-                    <!--- <span id="date"></span>
+                <h1 class="menu_h1">Heti ajánlatunk - <span id="firstDay"></span> - <span id="lastDay"></span>
+                    
                     <script>
-                        n =  new Date();
-                        y = n.getFullYear();
-                        m = n.getMonth() + 1;
-                        d = n.getDate();
-                        document.getElementById("date").innerHTML = y + "." + m + "." + d;
-                        </script>-->
+                        var curr = new Date; // get current date
+                        var first = curr.getDate() - curr.getDay()+2; // First day is the day of the month - the day of the week
+                        var last = first + 4; // last day is the first day + 6
+
+                        var firstDay = new Date(curr.setDate(first)).toISOString().substring(0,10).replace("-",".").replace("-",".");
+                        var lastDay = new Date(curr.setDate(last)).toISOString().substring(0,10).replace("-",".").replace("-",".");
+                        document.getElementById("firstDay").innerHTML = firstDay;
+                        document.getElementById("lastDay").innerHTML = lastDay;
+
+                    </script>
                 </h1>
                 <div id="weeklyMenu">
                     <ul>
