@@ -150,15 +150,20 @@ footer {
 }
 
 #weeklyMenu li:hover {
-  color: #cbc76a;
-  background: #7d0633;
+  /* color: #cbc76a;
+  background: rgb(125, 6, 51, 0.9); */
+  color: rgb(125, 6, 51);
+  transition: all 0.3s ease 0s;
+  background: rgb(203, 199, 106, 0.9);
   /*color: #f8efd4;*/
   padding: 0 0.2em;
   text-transform: uppercase;
+  box-shadow: 0 0 6px black;
 }
 
 #weeklyMenu li:hover a {
-  color: #cbc76a;
+  /* color: #cbc76a; */
+  color: rgb(125, 6, 51);
   text-decoration: none;
 }
 
