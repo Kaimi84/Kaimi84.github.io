@@ -201,7 +201,7 @@ aside {
   float: right;
   padding: 0;
   width: 280px;
-  height: 580px;
+  height: auto;
   /*border-left: solid #7d0633;*/
   /*border-left: 1px solid rgb(127, 0, 0);*/
   border-left: 1px solid rgba(255, 0, 0, .5);
@@ -212,7 +212,8 @@ aside {
 .gallery {
   margin: 10px 10px 5px 10px;
   padding: 0 5px 0 0;
-  height: 510px;
+  /* height: 510px; */
+   height: 420px;
   overflow-y: scroll;
 }
 
